@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Upload, AlertCircle, FileText, Check, AlertTriangle } from 'lucide-react';
+const API_URL = "https://beluga1.onrender.com";
 
 const App = () => {
   const [file, setFile] = useState(null);
